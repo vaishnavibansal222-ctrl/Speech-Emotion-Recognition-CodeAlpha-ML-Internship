@@ -120,22 +120,22 @@ flowchart TD
 * Seaborn
 ## 🚀 How to Run
 1. Clone the repository
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/vaishnavibansal222-ctrl/Speech-Emotion-Recognition-CodeAlpha-ML-Internship.git
 
 2. Open the project
-cd Speech-Emotion-Recognition
+cd Speech-Emotion-Recognition-CodeAlpha-ML-Internship
 
-3. Create a virtual environment
+6. Create a virtual environment
 python -m venv venv
 
-4. Activate the environment
+7. Activate the environment
 Windows PowerShell:
 venv\Scripts\Activate.ps1
 
-5. Install dependencies
+8. Install dependencies
 pip install -r requirements.txt
 
-6. Predict emotion from an audio file
+9. Predict emotion from an audio file
 python src/predict.py
 
 ## 🔍 Example Prediction
@@ -155,6 +155,10 @@ Confidence        : 100.00%
 | `confusion_matrix.png` | Visualizes actual vs. predicted emotion classifications |
 | `classification_report.txt` | Contains precision, recall, F1-score, and support for each emotion |
 
+## 📈 Results
+
+The trained CNN model can classify speech audio into multiple emotional categories. The generated graphs and classification report are available in the outputs/ folder.
+
 ⚠️ Note
 
 The model is intended as an educational machine learning project. The reported accuracy depends on the dataset, feature extraction method, model architecture, and training configuration.
@@ -164,10 +168,14 @@ The model is intended as an educational machine learning project. The reported a
 Vaishnavi Bansal
 
 Machine Learning / AI Enthusiast
-
+⭐ Acknowledgement
+RAVDESS Dataset
+CodeAlpha Internship
 
 
 ## 💼 CodeAlpha Internship
 **Machine Learning Intern — CodeAlpha**
+This project was developed as part of my Machine Learning Internship at CodeAlpha.
+
 
 ## ⭐ If you find this project useful, consider giving it a star!
