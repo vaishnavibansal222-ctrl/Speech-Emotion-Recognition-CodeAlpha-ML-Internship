@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset
+dataset/RAVDESS/Actor_*/
+dataset/RAVDESS/*.zip
+
+# Audio files
+*.wav
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
