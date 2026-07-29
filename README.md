@@ -62,9 +62,8 @@ A Convolutional Neural Network (CNN) is used for speech emotion classification.
 Audio files are processed using **Librosa** to extract relevant audio features.
 
 Feature shape:
-
-```text
 (40, 174)
+
 CNN input shape:
 
 (40, 174, 1)
@@ -81,7 +80,7 @@ The project also generates:
 * Loss graph
 * Confusion matrix
 * Classification report
-
+  
  ## 🗂️ Project Structure
 ```mermaid
 flowchart TD
@@ -122,19 +121,21 @@ flowchart TD
 ## 🚀 How to Run
 1. Clone the repository
 git clone YOUR_GITHUB_REPOSITORY_URL
+
 2. Open the project
 cd Speech-Emotion-Recognition
+
 3. Create a virtual environment
 python -m venv venv
-4. Activate the environment
 
+4. Activate the environment
 Windows PowerShell:
 venv\Scripts\Activate.ps1
 
 5. Install dependencies
 pip install -r requirements.txt
 
-7. Predict emotion from an audio file
+6. Predict emotion from an audio file
 python src/predict.py
 
 ## 🔍 Example Prediction
@@ -169,4 +170,4 @@ Machine Learning / AI Enthusiast
 ## 💼 CodeAlpha Internship
 **Machine Learning Intern — CodeAlpha**
 
-## git init⭐ If you find this project useful, consider giving it a star!
+## ⭐ If you find this project useful, consider giving it a star!
